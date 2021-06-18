@@ -13,4 +13,5 @@ if subt:
    st.write(a-b)
 if mull:
    st.write(a*b)
-if    
+if divide:
+   st.write(a/b)
