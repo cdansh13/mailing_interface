@@ -1,6 +1,6 @@
 import streamlit as st
 st.title("Calculator-Ansh Sharma")
-st.header("This calculator can do Addition")
+st.header("This is a website which will help you in doing arithmatic operations")
 a=st.number_input("1st no.")
 b=st.number_input("2nd no.")
 addi=st.button("Addition")
@@ -15,3 +15,4 @@ if mull:
    st.write(a*b)
 if divide:
    st.write(a/b)
+st.header("Developer-Ansh Sharma")
