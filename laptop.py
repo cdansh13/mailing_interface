@@ -1,20 +1,7 @@
 import streamlit as st
-st.title("Calculator")
-a=st.text_input("Your operator")
-b=st.text_input(int+"Your first number")
-c=st.text_input(int+"Your second number")
-d=st.button("Done")
-if d:
-    if a=="+":
-      ad=b+c
-      st.write(ad)
-    if a=="-":
-      su=b-c
-      st.wrte(su)
-    if a=="*":
-      mull=b*c
-      st.write(mull)
-    if a=="/":
-      divide=b/c
-      st.write(divide)
-  
+import plotly.graph_objects as go
+import numpy as np
+.set_page_config(
+    page_title="Financial Planning Calculator")
+
+st.title("Financial Planning Calculator")
