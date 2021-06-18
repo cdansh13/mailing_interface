@@ -16,8 +16,8 @@ img1 = Image.open("C:\\Users\\erroh\\Desktop_img.png")
   
 # display image using streamlit
 # width is used to set the width of an image
-st.image(img, width=200)
-st.image(img1, width=200)
+#st.image(img, width=200)
+#st.image(img1, width=200)
 sys=st.button("System details")
 ssd=st.button("SSD info")
 ram=st.button("Ram info")
