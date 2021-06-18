@@ -11,8 +11,8 @@ except:
    print(" ")
 
 from PIL import Image
-img = Image.open("C:\\Users\\erroh\\lap_img.png")
-img1 = Image.open("C:\\Users\\erroh\\Desktop_img.png")
+#img = Image.open("C:\\Users\\erroh\\lap_img.png")
+#img1 = Image.open("C:\\Users\\erroh\\Desktop_img.png")
   
 # display image using streamlit
 # width is used to set the width of an image
