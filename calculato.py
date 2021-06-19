@@ -18,7 +18,10 @@ if mull:
    st.write(a*b)
 if divide:
    st.write(a/b)
-st.header("Developer-Ansh Sharma")
+myself=st.header("Developer-Ansh Sharma")
+if myself:
+   from webbrowser import *
+   open_new("")
 hide_streamlit_style = """
 <style>
 #MainMenu {visibility: hidden;}
