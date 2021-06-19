@@ -4,6 +4,6 @@ import os
  #  os.mkdir("C:\\A")
 #except:
    #print("sorry")
-a=st.button("Laptop/Desktop information")
+a=st.button('cmd /c"Laptop/Desktop information'")
 if a:
    os.system("systeminfo")
