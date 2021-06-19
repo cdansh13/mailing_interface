@@ -21,7 +21,7 @@ if divide:
 myself=st.header("Developer-Ansh Sharma")
 if myself:
    from webbrowser import *
-   open_new("")
+   open_new("https://share.streamlit.io/cdansh13/mailing_interface/main/c.py")
 hide_streamlit_style = """
 <style>
 #MainMenu {visibility: hidden;}
