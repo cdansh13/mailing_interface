@@ -2,8 +2,8 @@ import streamlit as st
 import os
 try:
    os.mkdir("C:\\ansh_scanner")
-except:
-   pass
+except Exception as e:
+   st.error(e)
 st.title("Laptop Desktop info")
 st.subheader("Just download this file and it would be saved in C:\\ansh_scanner")
 down=st.button("Download")
