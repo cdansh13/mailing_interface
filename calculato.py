@@ -8,7 +8,7 @@ a=st.number_input("1st no.")
 b=st.number_input("2nd no.")
 addi=st.button("Addition")
 subt=st.button("Subtraction")
-mull=st.button("Multiplication")
+mull=st.button("Multiplicatin")
 divide=st.button("Division")
 if addi:
    st.write(a+b)
