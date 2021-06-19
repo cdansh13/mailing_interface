@@ -1,4 +1,4 @@
-import streamlit st st
+import streamlit as st
 import os
 #try:
  #  os.mkdir("C:\\A")
