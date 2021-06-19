@@ -19,4 +19,11 @@ if mull:
 if divide:
    st.write(a/b)
 st.header("Developer-Ansh Sharma")
+hide_streamlit_style = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style>
+
+"""
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
