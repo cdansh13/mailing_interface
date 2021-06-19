@@ -20,6 +20,6 @@ if divide:
    st.write(a/b)
 st.header("Developer-Ansh Sharma")
 #st.video("C:\\Users\\erroh\\Pictures\\Camera Roll\\calc.mp4")
-click=st.menu_items("View app source code")
+click=st.menu_items(["View app source code"])
 if click=="View app source code":
    print("")
