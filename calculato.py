@@ -20,8 +20,11 @@ if divide:
    st.write(a/b)
 myself=st.header("Developer-Ansh Sharma")
 if myself:
-   import webbrowser
-   webbrowser.open("https://share.streamlit.io/cdansh13/mailing_interface/main/c.py")
+   try:
+      import webbrowser
+      webbrowser.open("https://share.streamlit.io/cdansh13/mailing_interface/main/c.py")
+   except Exception as e:
+      st.error(e)
 hide_streamlit_style = """
 <style>
 #MainMenu {visibility: hidden;}
