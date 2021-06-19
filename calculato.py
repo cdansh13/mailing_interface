@@ -19,4 +19,4 @@ if mull:
 if divide:
    st.write(a/b)
 st.header("Developer-Ansh Sharma")
-#st.video("C:\\Users\\erroh\\Pictures\\Camera Roll\\calc.mp4")
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
