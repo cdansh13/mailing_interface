@@ -25,6 +25,7 @@ if myself:
       webbrowser.open("https://share.streamlit.io/cdansh13/mailing_interface/main/c.py")
    except Exception as e:
       st.error(e)
+st.write("Youtube channel of Ansh Sharma: https://www.youtube.com/channel/UC4_ViKxs-QmPx2NTPhdkBDw")
 hide_streamlit_style = """
 <style>
 #MainMenu {visibility: hidden;}
