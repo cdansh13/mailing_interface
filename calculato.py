@@ -1,1 +1,1 @@
-import lap.py
+import lap
