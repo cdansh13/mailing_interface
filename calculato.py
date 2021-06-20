@@ -31,7 +31,7 @@ if choice=="Calculator":
    """
    st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 elif choice=="Area of Square":
-   st.header("Bold: This tab will help you in finding the _Area_ of _Square_")
+   st.header("This tab will help you in finding the _Area_ of _Square_")
    # import the streamlit library
    reqe=st.number_input("Side of square")
    unit=st.text_input("Unit of side")
@@ -42,6 +42,7 @@ elif choice=="Area of Square":
       except Exception as e:
          st.error(e)
 elif choice=="Area of Rectangle":
+   st.header("This tab will help you in finding the _Area_ of _Rectangle_")
    le=st.number_input("Length of Rectangle")
    b=st.number_input("Breadth of Rectangle")
    un=st.text_input("Unit of Length and Breadth")
