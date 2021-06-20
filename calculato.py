@@ -38,8 +38,8 @@ elif choice=="Area of Square":
    if fin:
       try:
          st.write(reqe*reqe+unit+"²")
-      except:
-         st.error("Invalid entry")
+      except Exception as e:
+         st.error(e)
 elif choice=="Area of Rectangle":
    le=st.number_input("Length of Rectangle")
    b=st.number_input("Breadth of Rectangle")
@@ -48,5 +48,5 @@ elif choice=="Area of Rectangle":
    if fk:
       try:
          st.write(le*b+un+"²")
-      except:
-         st.error("Invalid entry")
+      except Exception as l:
+         st.error(l)
