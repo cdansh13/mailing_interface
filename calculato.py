@@ -3,7 +3,7 @@ import streamlit as st
 
 # traverse the infoimport streamlit as st
 st.title("Calculator-Ansh Sharma")
-st.header("This is a website which will help you in doing arithmatic operations")
+st.header("This is a website which will help you in doing arithmetic operations")
 a=st.number_input("1st no.")
 b=st.number_input("2nd no.")
 addi=st.button("Addition")
