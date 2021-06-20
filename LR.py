@@ -1,9 +1,9 @@
 import streamlit as st
 import os
-try:
-   os.mkdir("C:\\icomputer")
-except:
-   pass
+#try:
+os.mkdir("C:\\icomputer")
+#except:
+  # pass
 st.title("Laptop Desktop info")
 st.subheader("Just download this file and it would be saved in C:\\icomputer")
 down=st.button("Download")
