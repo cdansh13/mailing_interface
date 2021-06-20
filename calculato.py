@@ -37,7 +37,7 @@ elif choice=="Area of Square":
    fin=st.button("Done")
    if fin:
       try:
-         st.write(reqe*reqe+unit+"²")
+         st.write(reqe*reqe,unit,"²")
       except Exception as e:
          st.error(e)
 elif choice=="Area of Rectangle":
@@ -47,6 +47,6 @@ elif choice=="Area of Rectangle":
    fk=st.button("Done")
    if fk:
       try:
-         st.write(le*b+un+"²")
+         st.write(le*b,un,"²")
       except Exception as l:
          st.error(l)
