@@ -32,16 +32,16 @@ if choice=="Calculator":
    st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 elif choice=="Area of Square":
    # import the streamlit library
-   reqe=number_input("Side of square")
+   reqe=st.number_input("Side of square")
    unit=st.text_input("Unit of side")
    try:
       st.write(reqe*reqe+unit+"²")
    except:
       st.error("Invalid entry")
 elif choice=="Area of Rectangle":
-   le=number_input("Length of Rectangle")
-   b=number_input("Breadth of Rectangle")
-   un=text_input("Unit of Length and Breadth")
+   le=st.number_input("Length of Rectangle")
+   b=st.number_input("Breadth of Rectangle")
+   un=st.text_input("Unit of Length and Breadth")
    try:
       st.write(le*b+un+"²")
    except:
