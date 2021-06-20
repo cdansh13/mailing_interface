@@ -3,7 +3,7 @@ import streamlit as st
 menu=["Calculator","Area of Square","Area of Rectangle"]
 choice=st.sidebar.selectbox("Select Operation:",menu)
 # traverse the infoimport streamlit as st
-st.title("This app will help you in doing Simple Calculations and in Finding BMI")
+st.title("This app will help you in doing Simple Calculations and in Finding Areas of Square and Rectangle")
 if choice=="Calculator": 
    st.header("Calculator-Ansh Sharma")
    st.header("This is tab will help you in doing arithmetic operations")
