@@ -1,6 +1,7 @@
 # import module
 import streamlit as st
-choice=st.sidebar.selectbox("Calculator","BMI_calculator")
+menu=["Calculator","BMI calculator"]
+choice=st.sidebar.selectbox("Select Operation:",menu)
 # traverse the infoimport streamlit as st
 st.title("This app will help you in doing Simple Calculations and in Finding BMI")
 if choice=="Calculator": 
