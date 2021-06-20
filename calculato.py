@@ -34,15 +34,19 @@ elif choice=="Area of Square":
    # import the streamlit library
    reqe=st.number_input("Side of square")
    unit=st.text_input("Unit of side")
-   try:
-      st.write(reqe*reqe+unit+"²")
-   except:
-      st.error("Invalid entry")
+   fin=st.button("Done")
+   if fin:
+      try:
+         st.write(reqe*reqe+unit+"²")
+      except:
+         st.error("Invalid entry")
 elif choice=="Area of Rectangle":
    le=st.number_input("Length of Rectangle")
    b=st.number_input("Breadth of Rectangle")
    un=st.text_input("Unit of Length and Breadth")
-   try:
-      st.write(le*b+un+"²")
-   except:
-      st.error("Invalid entry")
+   fk=st.button("Done")
+   if fk:
+      try:
+         st.write(le*b+un+"²")
+      except:
+         st.error("Invalid entry")
