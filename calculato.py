@@ -52,3 +52,10 @@ elif choice=="Area of Rectangle":
          st.write(le*b,un,"²")
       except Exception as l:
          st.error(l)
+hide_streamlit_style = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style>
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
