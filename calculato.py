@@ -48,7 +48,7 @@ if choice=="BMI calculator":
        height = st.number_input('Meters')
 	
        try:
-	  bmi = weight / (height ** 2)
+	  bmi = weight / (height**2)
        except:
           st.error("Enter some value of height")
 		
