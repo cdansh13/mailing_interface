@@ -6,7 +6,7 @@ choice=st.sidebar.selectbox("Select Operation:",menu)
 st.title("This app will help you in doing Simple Calculations and in Finding Areas of Square and Rectangle")
 if choice=="Calculator": 
    st.header("Calculator-Ansh Sharma")
-   st.header("This is tab will help you in doing _Arithmetic_ operations_")
+   st.header("This is tab will help you in doing _Arithmetic_ _operations_")
    a=st.number_input("1st no.")
    b=st.number_input("2nd no.")
    addi=st.button("Addition")
