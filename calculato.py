@@ -1,6 +1,6 @@
 # import module
 import streamlit as st
-menu=["Calculator","BMI calculator"]
+menu=["Calculator","Area of Square","Area of Rectangle"]
 choice=st.sidebar.selectbox("Select Operation:",menu)
 # traverse the infoimport streamlit as st
 st.title("This app will help you in doing Simple Calculations and in Finding BMI")
@@ -30,8 +30,19 @@ if choice=="Calculator":
    </style>
    """
    st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
-if choice=="BMI calculator":
+elif choice=="Area of Square":
    # import the streamlit library
-   import os
-   os.system("C:\\Users\\erroh\\Streamlit_folder\\BMI_calculator.py")
-
+   reqe=number_input("Side of square")
+   unit=st.text_input("Unit of side")
+   try:
+      st.write(reqe*reqe+unit+"²")
+   except:
+      st.error("Invalid entry")
+elif choice=="Area of Rectangle":
+   le=number_input("Length of Rectangle")
+   b=number_input("Breadth of Rectangle")
+   un=text_input("Unit of Length and Breadth")
+   try:
+      st.write(le*b+un+"²")
+   except:
+      st.error("Invalid entry")
