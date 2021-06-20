@@ -47,10 +47,10 @@ if choice=="BMI calculator":
    elif(status == 'meters'):
        height = st.number_input('Meters')
 	
-	   try:
-		   bmi = weight / (height ** 2)
-	   except:
-		   st.error("Enter some value of height")
+       try:
+	  bmi = weight / (height ** 2)
+       except:
+          st.error("Enter some value of height")
 		
       else:
 	# take height input in feet
