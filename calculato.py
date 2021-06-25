@@ -1,6 +1,6 @@
 # import module
 import streamlit as st
-st.set_page_config(page_title="Calculator by Ansh Sharma",page_icon=":smiley:")
+st.set_page_config(page_title="Calculator by Ansh Sharma",page_icon="😃")
 menu=["Calculator","Area of Square","Area of Rectangle"]
 choice=st.sidebar.selectbox("Select Operation:",menu)
 # traverse the infoimport streamlit as st
