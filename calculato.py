@@ -1,7 +1,7 @@
 # import module
 import streamlit as st
 from PIL import Image
-img=Image.open("https://github.com/cdansh13/mailing_interface/blob/main/lock.jpg")
+img=Image.open("https://image.shutterstock.com/image-photo/black-digital-calculator-on-top-260nw-674224573.jpg")
 st.image(img,width=400)
 st.set_page_config(page_title="Calculator by Ansh Sharma",
                    page_icon="😃")
