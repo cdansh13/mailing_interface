@@ -1,5 +1,24 @@
 import streamlit as st
-st.title("About Ansh Sharma")
-st.write("""Ansh Sharma is a programmer of python,powershell and bash.
-        He is started his coding journey when he was just of 10(2020) years. And he started creating websites when he was just of 11 years
-        Youtube Channel link: https://www.youtube.com/channel/UC4_ViKxs-QmPx2NTPhdkBDw""")
+import os
+try:
+   os.mkdir("C:\\icomputer")
+except:
+   pass
+st.title("Laptop Desktop info")
+st.subheader("Just download this file and it would be saved in C:\\icomputer")
+down=st.button("Download")
+if down:
+   try:
+     f = open("C:\\icomputer\\laptop_detail.bat", "a")
+     f.write("python C:\\Users\\erroh\\laptop_recovery.py")
+     f.close()
+     st.success("Saved at C:\icomputer\laptop_detail.bat")
+   except:
+     psss
+hide_streamlit_style = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style>
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
