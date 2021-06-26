@@ -1,6 +1,6 @@
 import streamlit as st
-from PIL import Image
-img=Image.open("C:\\Users\\erroh\\Pictures\\lock.jpg")
+#from PIL import Image
+#img=Image.open("C:\\Users\\erroh\\Pictures\\lock.jpg")
 st.set_page_config(page_title="Calculator by Ansh Sharma",
                    page_icon="😃")
 menu=["Calculator","Area of Square","Area of Rectangle"]
