@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-image=Image.open("C:\\Users\\erroh\\Pictures\\web_vid\\calc.png")
+image=Image.open("https://github.com/cdansh13/my_codes/blob/main/calc.png")
 st.image(image,width=500)
 st.set_page_config(page_title="Calculator by Ansh Sharma",
                    page_icon="😃")
